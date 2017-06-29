@@ -84,7 +84,6 @@ namespace TestWithSandro
             t.Next();
             t.Play(0,1);
             t.Next();
-            
            
             t.Play(1,1);
             t.Next();
@@ -95,8 +94,9 @@ namespace TestWithSandro
             t.Next();
             t.Play(0,2);
 
+            var win = t.Win(1);
             
-            Assert.AreEqual(t.Tab[0,1], 'O');
+            Assert.AreEqual(win, true);
         }
     }
 }

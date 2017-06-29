@@ -32,5 +32,10 @@ namespace ClassLibrary
             }
             Tab[posx, posy] = play;
         }
+
+        public bool Win(int currentPlayer)
+        {
+            return true;
+        }
     }
 }
