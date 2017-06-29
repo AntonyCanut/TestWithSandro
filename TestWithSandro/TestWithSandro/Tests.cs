@@ -93,8 +93,9 @@ namespace TestWithSandro
             t.Play(2,2);
             t.Next();
             t.Play(0,2);
+            t.Next();
 
-            var win = t.Win(1);
+            var win = t.Win();
             
             Assert.AreEqual(win, true);
         }
