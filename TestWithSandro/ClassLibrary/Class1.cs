@@ -11,5 +11,10 @@ namespace ClassLibrary
         {
             CurrentPlayer = 1;
         }
+
+        public void Next()
+        {
+            CurrentPlayer = 2;
+        }
     }
 }

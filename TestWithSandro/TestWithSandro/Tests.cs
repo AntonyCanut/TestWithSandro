@@ -14,10 +14,21 @@ namespace TestWithSandro
             Assert.AreEqual(t.players, 2);
         }
 
+        [Test]
         public void Should_Player_One_Play_First()
         {
             TicTacToe t = new TicTacToe();
             Assert.AreEqual(t.CurrentPlayer, 1);
+        }
+        
+        [Test]
+        public void Should_Next_Player()
+        {
+            TicTacToe t = new TicTacToe();
+
+            t.Next();
+            
+            Assert.AreEqual(t.CurrentPlayer, 2);
         }
     }
 }
