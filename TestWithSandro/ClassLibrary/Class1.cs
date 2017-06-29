@@ -19,7 +19,7 @@ namespace ClassLibrary
             CurrentPlayer = (CurrentPlayer == 2) ? 1 : 2 ;
         }
 
-        public void Play()
+        public void Play(int posx, int posy)
         {
             char play;
             if (CurrentPlayer == 1)
@@ -30,7 +30,7 @@ namespace ClassLibrary
             {
                 play = 'O';
             }
-            Tab[0, 0] = play;
+            Tab[posx, posy] = play;
         }
     }
 }

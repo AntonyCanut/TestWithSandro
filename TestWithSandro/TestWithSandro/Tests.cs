@@ -57,9 +57,21 @@ namespace TestWithSandro
         {
             TicTacToe t = new TicTacToe();
 
-            t.Play();
+            t.Play(0,0);
             
             Assert.AreEqual(t.Tab[0,0], 'X');
+        }
+        
+        [Test]
+        public void Should_Second_Play_Whith_Cross()
+        {
+            TicTacToe t = new TicTacToe();
+
+            t.Play(0,0);
+            t.Next();
+            t.Play(0,1);
+            
+            Assert.AreEqual(t.Tab[0,1], 'O');
         }
     }
 }
