@@ -18,7 +18,7 @@ namespace TestWithSandro
         public void Should_Player_One_Play_First()
         {
             TicTacToe t = new TicTacToe();
-            Assert.AreEqual(t.CurrentPlayer, 1);
+            Assert.AreEqual(t.GetCurrentPlayer(), 1);
         }
         
         [Test]
@@ -28,7 +28,7 @@ namespace TestWithSandro
 
             t.Next();
             
-            Assert.AreEqual(t.CurrentPlayer, 2);
+            Assert.AreEqual(t.GetCurrentPlayer(), 2);
         }
         
         [Test]
@@ -39,7 +39,7 @@ namespace TestWithSandro
             t.Next();
             t.Next();
             
-            Assert.AreEqual(t.CurrentPlayer, 1);
+            Assert.AreEqual(t.GetCurrentPlayer(), 1);
         }
 
 

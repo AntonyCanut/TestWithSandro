@@ -6,7 +6,7 @@ namespace ClassLibrary
     public class TicTacToe
     {
         public int players = 2;
-        public int CurrentPlayer;
+        private int CurrentPlayer;
 
         public char CurrentSign => CurrentPlayer == 1 ? 'X' : 'O';
 
@@ -15,6 +15,11 @@ namespace ClassLibrary
         public TicTacToe()
         {
             CurrentPlayer = 1;
+        }
+
+        public int GetCurrentPlayer()
+        {
+            return CurrentPlayer;
         }
 
         public void Next()
