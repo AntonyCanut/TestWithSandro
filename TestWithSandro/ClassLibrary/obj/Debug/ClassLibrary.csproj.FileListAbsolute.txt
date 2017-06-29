@@ -1,0 +1,6 @@
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/ClassLibrary/bin/Debug/ClassLibrary.dll
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/ClassLibrary/bin/Debug/ClassLibrary.pdb
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/ClassLibrary/obj/Debug/ClassLibrary.csprojResolveAssemblyReference.cache
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/ClassLibrary/obj/Debug/ClassLibrary.csproj.CoreCompileInputs.cache
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/ClassLibrary/obj/Debug/ClassLibrary.dll
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/ClassLibrary/obj/Debug/ClassLibrary.pdb

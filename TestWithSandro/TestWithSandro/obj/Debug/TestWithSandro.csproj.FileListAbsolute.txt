@@ -6,3 +6,7 @@
 /Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/obj/Debug/TestWithSandro.csproj.CoreCompileInputs.cache
 /Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/obj/Debug/TestWithSandro.dll
 /Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/obj/Debug/TestWithSandro.pdb
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/bin/Debug/ClassLibrary.dll
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/bin/Debug/ConsoleApplication.exe
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/bin/Debug/ClassLibrary.pdb
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/bin/Debug/ConsoleApplication.pdb
