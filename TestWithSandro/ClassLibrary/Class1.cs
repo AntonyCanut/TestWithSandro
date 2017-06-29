@@ -14,7 +14,7 @@ namespace ClassLibrary
 
         public void Next()
         {
-            CurrentPlayer = 2;
+            CurrentPlayer = (CurrentPlayer == 2) ? 1 : 2 ;
         }
     }
 }

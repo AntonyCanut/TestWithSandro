@@ -30,5 +30,16 @@ namespace TestWithSandro
             
             Assert.AreEqual(t.CurrentPlayer, 2);
         }
+        
+        [Test]
+        public void Should_Next_Next_Player()
+        {
+            TicTacToe t = new TicTacToe();
+
+            t.Next();
+            t.Next();
+            
+            Assert.AreEqual(t.CurrentPlayer, 1);
+        }
     }
 }
