@@ -15,29 +15,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Tests.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tests.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestWithSandro/Tests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="41" column="48" lean-forward="false" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+            <state relative-caret-position="82">
+              <caret line="80" column="33" lean-forward="false" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
               <folding>
-                <marker date="1498749623000" expanded="false" signature="6:56" ph="..." />
-                <marker date="1498749623000" expanded="true" signature="82:2153" ph="{...}" />
-                <marker date="1498749623000" expanded="true" signature="125:2151" ph="{...}" />
-                <marker date="1498749623000" expanded="true" signature="191:297" ph="{...}" />
-                <marker date="1498749623000" expanded="true" signature="364:481" ph="{...}" />
-                <marker date="1498749623000" expanded="true" signature="546:699" ph="{...}" />
-                <marker date="1498749623000" expanded="true" signature="769:944" ph="{...}" />
-                <marker date="1498749623000" expanded="true" signature="1005:1132" ph="{...}" />
-                <marker date="1498749623000" expanded="true" signature="1201:1349" ph="{...}" />
-                <marker date="1498749623000" expanded="true" signature="1426:1621" ph="{...}" />
-                <marker date="1498749623000" expanded="true" signature="1689:2145" ph="{...}" />
+                <marker date="1498750391000" expanded="false" signature="6:56" ph="..." />
+                <marker date="1498750391000" expanded="true" signature="82:2284" ph="{...}" />
+                <marker date="1498750391000" expanded="true" signature="125:2282" ph="{...}" />
+                <marker date="1498750391000" expanded="true" signature="191:297" ph="{...}" />
+                <marker date="1498750391000" expanded="true" signature="364:481" ph="{...}" />
+                <marker date="1498750391000" expanded="true" signature="546:699" ph="{...}" />
+                <marker date="1498750391000" expanded="true" signature="769:944" ph="{...}" />
+                <marker date="1498750391000" expanded="true" signature="1005:1132" ph="{...}" />
+                <marker date="1498750391000" expanded="true" signature="1201:1349" ph="{...}" />
+                <marker date="1498750391000" expanded="true" signature="1426:1621" ph="{...}" />
+                <marker date="1498750391000" expanded="true" signature="1689:1796" ph="{...}" />
+                <marker date="1498750391000" expanded="true" signature="1829:2268" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class1.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Class1.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClassLibrary/Class1.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
@@ -78,8 +79,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ConsoleApplication/Program.cs" />
-        <option value="$PROJECT_DIR$/TestWithSandro/Tests.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Class1.cs" />
+        <option value="$PROJECT_DIR$/TestWithSandro/Tests.cs" />
       </list>
     </option>
   </component>
@@ -280,12 +281,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498745648434</updated>
-      <workItem from="1498745649600" duration="4477000" />
+      <workItem from="1498745649600" duration="4608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4477000" />
+    <option name="totallyTimeSpent" value="4608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,26 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestWithSandro/Tests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="41" column="48" lean-forward="false" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-          <folding>
-            <marker date="1498749623000" expanded="false" signature="6:56" ph="..." />
-            <marker date="1498749623000" expanded="true" signature="82:2153" ph="{...}" />
-            <marker date="1498749623000" expanded="true" signature="125:2151" ph="{...}" />
-            <marker date="1498749623000" expanded="true" signature="191:297" ph="{...}" />
-            <marker date="1498749623000" expanded="true" signature="364:481" ph="{...}" />
-            <marker date="1498749623000" expanded="true" signature="546:699" ph="{...}" />
-            <marker date="1498749623000" expanded="true" signature="769:944" ph="{...}" />
-            <marker date="1498749623000" expanded="true" signature="1005:1132" ph="{...}" />
-            <marker date="1498749623000" expanded="true" signature="1201:1349" ph="{...}" />
-            <marker date="1498749623000" expanded="true" signature="1426:1621" ph="{...}" />
-            <marker date="1498749623000" expanded="true" signature="1689:2145" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClassLibrary/Class1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -382,6 +363,27 @@
             <marker date="1498750257000" expanded="true" signature="608:671" ph="{...}" />
             <marker date="1498750257000" expanded="true" signature="698:922" ph="{...}" />
             <marker date="1498750257000" expanded="true" signature="1008:1132" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestWithSandro/Tests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="80" column="33" lean-forward="false" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+          <folding>
+            <marker date="1498750391000" expanded="false" signature="6:56" ph="..." />
+            <marker date="1498750391000" expanded="true" signature="82:2284" ph="{...}" />
+            <marker date="1498750391000" expanded="true" signature="125:2282" ph="{...}" />
+            <marker date="1498750391000" expanded="true" signature="191:297" ph="{...}" />
+            <marker date="1498750391000" expanded="true" signature="364:481" ph="{...}" />
+            <marker date="1498750391000" expanded="true" signature="546:699" ph="{...}" />
+            <marker date="1498750391000" expanded="true" signature="769:944" ph="{...}" />
+            <marker date="1498750391000" expanded="true" signature="1005:1132" ph="{...}" />
+            <marker date="1498750391000" expanded="true" signature="1201:1349" ph="{...}" />
+            <marker date="1498750391000" expanded="true" signature="1426:1621" ph="{...}" />
+            <marker date="1498750391000" expanded="true" signature="1689:1796" ph="{...}" />
+            <marker date="1498750391000" expanded="true" signature="1829:2268" ph="{...}" />
           </folding>
         </state>
       </provider>
