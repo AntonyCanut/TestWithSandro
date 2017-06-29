@@ -6,8 +6,7 @@ namespace ClassLibrary
     public class TicTacToe
     {
         private int CurrentPlayer;
-        private char CurrentSign => CurrentPlayer == 1 ? 'X' : 'O';
-        public char[,] Tab = new char[3,3];
+        public int[,] Tab = new int[3,3];
         
         public TicTacToe()
         {
@@ -26,7 +25,7 @@ namespace ClassLibrary
 
         public void Play(int posx, int posy)
         {
-            Tab[posx, posy] = CurrentSign;
+            Tab[posx, posy] = CurrentPlayer;
         }
 
         public bool Win()
@@ -40,7 +39,7 @@ namespace ClassLibrary
         
         private bool CheckLine(int x, int y, int x2, int y2, int x3, int y3)
         {
-            return (Tab[x,y] == CurrentSign && Tab[x2,y2] == CurrentSign && Tab[x3,y3] == CurrentSign);
+            return (Tab[x,y] == CurrentPlayer && Tab[x2,y2] == CurrentPlayer && Tab[x3,y3] == CurrentPlayer);
         }
     }
 }

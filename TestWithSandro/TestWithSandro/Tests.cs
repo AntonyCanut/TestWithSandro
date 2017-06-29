@@ -52,7 +52,7 @@ namespace TestWithSandro
 
             t.Play(0,0);
             
-            Assert.AreEqual(t.Tab[0,0], 'X');
+            Assert.AreEqual(t.Tab[0,0], 1);
         }
         
         [Test]
@@ -64,7 +64,7 @@ namespace TestWithSandro
             t.Next();
             t.Play(0,1);
             
-            Assert.AreEqual(t.Tab[0,1], 'O');
+            Assert.AreEqual(t.Tab[0,1], 2);
         }
 
 
