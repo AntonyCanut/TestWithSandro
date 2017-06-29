@@ -8,10 +8,7 @@ namespace ClassLibrary
         public int players = 2;
         public int CurrentPlayer { get; set; }
 
-        public char CurrentSign
-        {
-            get { return CurrentPlayer == 1 ? 'X' : 'O'; }
-        }
+        public char CurrentSign => CurrentPlayer == 1 ? 'X' : 'O';
 
         public char[,] Tab = new char[3,3];
         
@@ -32,7 +29,7 @@ namespace ClassLibrary
 
         public bool Win()
         {
-            if (Tab[0,0] == 'X' &&Tab[1,1] == 'X' &&Tab[2,2] == 'X')
+            if (Tab[0,0] == CurrentSign &&Tab[1,1] == CurrentSign &&Tab[2,2] == CurrentSign)
                 return true;
             return false;
         }
