@@ -18,19 +18,20 @@
       <file leaf-file-name="Tests.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestWithSandro/Tests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="112">
+              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
-                <marker date="1498747597000" expanded="false" signature="6:56" ph="..." />
-                <marker date="1498747597000" expanded="true" signature="82:1614" ph="{...}" />
-                <marker date="1498747597000" expanded="true" signature="125:1612" ph="{...}" />
-                <marker date="1498747597000" expanded="true" signature="191:297" ph="{...}" />
-                <marker date="1498747597000" expanded="true" signature="364:476" ph="{...}" />
-                <marker date="1498747597000" expanded="true" signature="541:689" ph="{...}" />
-                <marker date="1498747597000" expanded="true" signature="759:929" ph="{...}" />
-                <marker date="1498747597000" expanded="true" signature="990:1117" ph="{...}" />
-                <marker date="1498747597000" expanded="true" signature="1186:1334" ph="{...}" />
-                <marker date="1498747597000" expanded="true" signature="1411:1606" ph="{...}" />
+                <marker date="1498747742000" expanded="false" signature="6:56" ph="..." />
+                <marker date="1498747742000" expanded="true" signature="82:2104" ph="{...}" />
+                <marker date="1498747742000" expanded="true" signature="125:2102" ph="{...}" />
+                <marker date="1498747742000" expanded="true" signature="191:297" ph="{...}" />
+                <marker date="1498747742000" expanded="true" signature="364:476" ph="{...}" />
+                <marker date="1498747742000" expanded="true" signature="541:689" ph="{...}" />
+                <marker date="1498747742000" expanded="true" signature="759:929" ph="{...}" />
+                <marker date="1498747742000" expanded="true" signature="990:1117" ph="{...}" />
+                <marker date="1498747742000" expanded="true" signature="1186:1334" ph="{...}" />
+                <marker date="1498747742000" expanded="true" signature="1411:1606" ph="{...}" />
+                <marker date="1498747742000" expanded="true" signature="1674:2096" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -278,12 +279,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498745648434</updated>
-      <workItem from="1498745649600" duration="1899000" />
+      <workItem from="1498745649600" duration="2035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1899000" />
+    <option name="totallyTimeSpent" value="2035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,7 +329,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -365,19 +366,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestWithSandro/Tests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state relative-caret-position="112">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
-            <marker date="1498747597000" expanded="false" signature="6:56" ph="..." />
-            <marker date="1498747597000" expanded="true" signature="82:1614" ph="{...}" />
-            <marker date="1498747597000" expanded="true" signature="125:1612" ph="{...}" />
-            <marker date="1498747597000" expanded="true" signature="191:297" ph="{...}" />
-            <marker date="1498747597000" expanded="true" signature="364:476" ph="{...}" />
-            <marker date="1498747597000" expanded="true" signature="541:689" ph="{...}" />
-            <marker date="1498747597000" expanded="true" signature="759:929" ph="{...}" />
-            <marker date="1498747597000" expanded="true" signature="990:1117" ph="{...}" />
-            <marker date="1498747597000" expanded="true" signature="1186:1334" ph="{...}" />
-            <marker date="1498747597000" expanded="true" signature="1411:1606" ph="{...}" />
+            <marker date="1498747742000" expanded="false" signature="6:56" ph="..." />
+            <marker date="1498747742000" expanded="true" signature="82:2104" ph="{...}" />
+            <marker date="1498747742000" expanded="true" signature="125:2102" ph="{...}" />
+            <marker date="1498747742000" expanded="true" signature="191:297" ph="{...}" />
+            <marker date="1498747742000" expanded="true" signature="364:476" ph="{...}" />
+            <marker date="1498747742000" expanded="true" signature="541:689" ph="{...}" />
+            <marker date="1498747742000" expanded="true" signature="759:929" ph="{...}" />
+            <marker date="1498747742000" expanded="true" signature="990:1117" ph="{...}" />
+            <marker date="1498747742000" expanded="true" signature="1186:1334" ph="{...}" />
+            <marker date="1498747742000" expanded="true" signature="1411:1606" ph="{...}" />
+            <marker date="1498747742000" expanded="true" signature="1674:2096" ph="{...}" />
           </folding>
         </state>
       </provider>

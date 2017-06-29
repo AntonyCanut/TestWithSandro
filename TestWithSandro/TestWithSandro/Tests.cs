@@ -73,5 +73,30 @@ namespace TestWithSandro
             
             Assert.AreEqual(t.Tab[0,1], 'O');
         }
+
+
+        [Test]
+        public void Should_First_Win_Whith_Cross()
+        {
+            TicTacToe t = new TicTacToe();
+
+            t.Play(0,0);
+            t.Next();
+            t.Play(0,1);
+            t.Next();
+            
+           
+            t.Play(1,1);
+            t.Next();
+            t.Play(0,2);
+            t.Next();
+            
+            t.Play(2,2);
+            t.Next();
+            t.Play(0,2);
+
+            
+            Assert.AreEqual(t.Tab[0,1], 'O');
+        }
     }
 }
