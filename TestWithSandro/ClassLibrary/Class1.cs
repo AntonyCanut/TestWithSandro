@@ -32,9 +32,14 @@ namespace ClassLibrary
 
         public bool Win()
         {
-            if (Tab[0,0] == CurrentSign &&Tab[1,1] == CurrentSign &&Tab[2,2] == CurrentSign)
-                return true;
-            return false;
+            return ((Tab[0,0] == CurrentSign && Tab[1,1] == CurrentSign && Tab[2,2] == CurrentSign) ||
+                    (Tab[0,0] == CurrentSign && Tab[1,1] == CurrentSign && Tab[2,2] == CurrentSign));
+        }
+        
+        private bool CheckLine(int x, int y, int x2, int y2, int x3, int y3)
+        {
+            return ((Tab[0,0] == CurrentSign && Tab[1,1] == CurrentSign && Tab[2,2] == CurrentSign) ||
+                    (Tab[0,0] == CurrentSign && Tab[1,1] == CurrentSign && Tab[2,2] == CurrentSign));
         }
     }
 }
