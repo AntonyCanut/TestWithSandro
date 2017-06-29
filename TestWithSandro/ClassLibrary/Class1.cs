@@ -21,7 +21,16 @@ namespace ClassLibrary
 
         public void Play()
         {
-            Tab[0, 0] = 'X';
+            char play;
+            if (CurrentPlayer == 1)
+            {
+                play = 'X';
+            }
+            else
+            {
+                play = 'O';
+            }
+            Tab[0, 0] = play;
         }
     }
 }
