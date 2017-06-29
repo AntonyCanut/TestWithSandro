@@ -18,5 +18,10 @@ namespace ClassLibrary
         {
             CurrentPlayer = (CurrentPlayer == 2) ? 1 : 2 ;
         }
+
+        public void Play()
+        {
+            Tab[0, 0] = 'X';
+        }
     }
 }

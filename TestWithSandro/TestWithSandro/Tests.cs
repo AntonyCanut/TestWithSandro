@@ -50,5 +50,16 @@ namespace TestWithSandro
             
             Assert.AreEqual(t.Tab, new char[3,3]);
         }
+
+
+        [Test]
+        public void Should_First_Play_Whith_Cross()
+        {
+            TicTacToe t = new TicTacToe();
+
+            t.Play();
+            
+            Assert.AreEqual(t.Tab[0,0], 'X');
+        }
     }
 }
