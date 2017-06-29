@@ -1,0 +1,8 @@
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/bin/Debug/TestWithSandro.dll
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/bin/Debug/TestWithSandro.pdb
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/bin/Debug/nunit.framework.dll
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/bin/Debug/nunit.framework.xml
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/obj/Debug/TestWithSandro.csprojResolveAssemblyReference.cache
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/obj/Debug/TestWithSandro.csproj.CoreCompileInputs.cache
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/obj/Debug/TestWithSandro.dll
+/Users/antonycanut/Projets/TestWithSandro/TestWithSandro/TestWithSandro/obj/Debug/TestWithSandro.pdb
