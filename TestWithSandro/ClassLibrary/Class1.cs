@@ -6,7 +6,7 @@ namespace ClassLibrary
     public class TicTacToe
     {
         public int players = 2;
-        public int CurrentPlayer { get; set; }
+        public int CurrentPlayer;
 
         public char CurrentSign => CurrentPlayer == 1 ? 'X' : 'O';
 
