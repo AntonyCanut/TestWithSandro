@@ -7,6 +7,12 @@ namespace ClassLibrary
     {
         public int players = 2;
         public int CurrentPlayer { get; set; }
+
+        public char CurrentSign
+        {
+            get { return CurrentPlayer == 1 ? 'X' : 'O'; }
+        }
+
         public char[,] Tab = new char[3,3];
         
         public TicTacToe()
@@ -21,16 +27,7 @@ namespace ClassLibrary
 
         public void Play(int posx, int posy)
         {
-            char play;
-            if (CurrentPlayer == 1)
-            {
-                play = 'X';
-            }
-            else
-            {
-                play = 'O';
-            }
-            Tab[posx, posy] = play;
+            Tab[posx, posy] = CurrentSign;
         }
 
         public bool Win()
