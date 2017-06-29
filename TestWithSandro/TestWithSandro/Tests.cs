@@ -76,34 +76,23 @@ namespace TestWithSandro
 
 
         [Test]
-        public void Should_First_Win_Whith_Cross()
-        {
-            var win = PlayGame(0,0,1,1,2,2);
-            
-            Assert.AreEqual(win, true);
-        }
-
-        private bool PlayGame(int x, int y, int x2, int y2, int x3, int y3)
+        public void Should_First_Lose_Whith_F()
         {
             TicTacToe t = new TicTacToe();
+            PlayGame(t, 0,0,0,1);
 
+            var win = t.Win();
+            
+            Assert.AreEqual(win, false);
+        }
+
+        private void PlayGame(TicTacToe t, int x, int y, int p2x, int p2y)
+        {
             t.Play(x,y);
             t.Next();
-            t.Play(0,1);
+            t.Play(p2x,p2y);
             t.Next();
-           
-            t.Play(x2,y2);
-            t.Next();
-            t.Play(0,2);
-            t.Next();
-            
-            t.Play(x3,y3);
-            t.Next();
-            t.Play(0,2);
-            t.Next();            
-            var win = t.Win();
-
-            return win;
+          
         }        
     }
 }
