@@ -76,7 +76,7 @@ namespace TestWithSandro
 
 
         [Test]
-        public void Should_First_Lose_Whith_F()
+        public void Should_First_Lose_Whith_Fist_Turn()
         {
             TicTacToe t = new TicTacToe();
             PlayGame(t, 0,0,0,1);
@@ -84,6 +84,20 @@ namespace TestWithSandro
             var win = t.Win();
             
             Assert.AreEqual(win, false);
+        }
+        
+        
+        [Test]
+        public void Should_First_Win_Whith_Fist_Turn()
+        {
+            TicTacToe t = new TicTacToe();
+            PlayGame(t, 0,0,0,1);
+            PlayGame(t, 1,1,1,2);
+            PlayGame(t, 2,2,2,1);
+
+            var win = t.Win();
+            
+            Assert.AreEqual(win, true);
         }
 
         private void PlayGame(TicTacToe t, int x, int y, int p2x, int p2y)
