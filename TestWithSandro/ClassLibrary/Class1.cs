@@ -35,7 +35,9 @@ namespace ClassLibrary
 
         public bool Win()
         {
-            return true;
+            if (Tab[0,0] == 'X' &&Tab[1,1] == 'X' &&Tab[2,2] == 'X')
+                return true;
+            return false;
         }
     }
 }
