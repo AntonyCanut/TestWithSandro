@@ -6,7 +6,7 @@ namespace ClassLibrary
     public class TicTacToe
     {
         private int CurrentPlayer;
-        public int[,] Tab = new int[3,3];
+        private int[,] Tab = new int[3,3];
         
         public TicTacToe()
         {
