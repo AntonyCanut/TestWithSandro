@@ -5,7 +5,6 @@ namespace ClassLibrary
 {
     public class TicTacToe
     {
-        public int players = 2;
         private int CurrentPlayer;
         private char CurrentSign => CurrentPlayer == 1 ? 'X' : 'O';
         public char[,] Tab = new char[3,3];

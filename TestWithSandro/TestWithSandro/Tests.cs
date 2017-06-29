@@ -8,13 +8,6 @@ namespace TestWithSandro
     public class Tests
     {
         [Test]
-        public void Should_Have_2_Players() 
-        {
-            TicTacToe t = new TicTacToe();
-            Assert.AreEqual(t.players, 2);
-        }
-
-        [Test]
         public void Should_Player_One_Play_First()
         {
             TicTacToe t = new TicTacToe();
