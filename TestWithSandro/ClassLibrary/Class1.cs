@@ -7,9 +7,7 @@ namespace ClassLibrary
     {
         public int players = 2;
         private int CurrentPlayer;
-
-        public char CurrentSign => CurrentPlayer == 1 ? 'X' : 'O';
-
+        private char CurrentSign => CurrentPlayer == 1 ? 'X' : 'O';
         public char[,] Tab = new char[3,3];
         
         public TicTacToe()
