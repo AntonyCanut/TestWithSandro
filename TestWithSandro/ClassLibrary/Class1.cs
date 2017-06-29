@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace ClassLibrary
 {
@@ -6,6 +7,7 @@ namespace ClassLibrary
     {
         public int players = 2;
         public int CurrentPlayer { get; set; }
+        public char[,] Tab = new char[3,3];
         
         public TicTacToe()
         {

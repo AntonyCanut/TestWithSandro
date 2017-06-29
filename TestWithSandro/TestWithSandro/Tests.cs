@@ -41,5 +41,14 @@ namespace TestWithSandro
             
             Assert.AreEqual(t.CurrentPlayer, 1);
         }
+
+
+        [Test]
+        public void Should_Return_InitTab()
+        {
+            TicTacToe t = new TicTacToe();
+            
+            Assert.AreEqual(t.Tab, new char[3,3]);
+        }
     }
 }
