@@ -92,7 +92,9 @@ namespace TestWithSandro
         {
             TicTacToe t = new TicTacToe();
             PlayGame(t, 0,0,0,1);
+            Assert.AreEqual(t.Win(), false);
             PlayGame(t, 1,1,1,2);
+            Assert.AreEqual(t.Win(), false);
             PlayGame(t, 2,2,2,1);
 
             var win = t.Win();
@@ -106,7 +108,6 @@ namespace TestWithSandro
             t.Next();
             t.Play(p2x,p2y);
             t.Next();
-          
-        }        
+        }
     }
 }
